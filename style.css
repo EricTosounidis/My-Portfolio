@@ -42,7 +42,7 @@ nav {
     height: 17vh;
   }
 
-#desktop-nav {
+#desktop-nav, #hamburger-nav {
     height: 100px;
     width: 100%;
     background-color: #fff;
@@ -64,7 +64,7 @@ nav {
     z-index: 200; */
 }
 
-#desktop:not(.sticky){
+#desktop:not(.sticky), #hamburger-nav:not(.sticky){
     position: absolute;
     bottom: 0;
 }
@@ -229,6 +229,7 @@ section {
   height: 100vh;
   background-color: #f9f9f9;
   margin: 0 0;
+  padding-top: 10rem;
 }
 
 .section__pic-container {
@@ -428,6 +429,7 @@ article .icon {
 
 #projects {
   position: relative;
+  height: 80vh;
 }
 
 .color-container {
